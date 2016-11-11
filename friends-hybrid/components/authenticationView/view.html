@@ -1,14 +1,14 @@
-<div data-role="view" data-title="Authentication" data-layout="main-nonav" data-model="app.authenticationView" data-show="app.authenticationView.onShow" data-after-show="app.authenticationView.afterShow" class="authentication-view">
+<div data-role="view" data-title="Autenticação" data-layout="main-nonav" data-model="app.authenticationView" data-show="app.authenticationView.onShow" data-after-show="app.authenticationView.afterShow" class="authentication-view">
     <div class="signin-view">
-        <h1>friends</h1>
+        <h1>dreamday</h1>
         <form id="login-form" class="form">
             <h2>Login</h2>
             <ul data-role="listview">
                 <li>
-                    <input name="username" type="text" placeholder="Username" data-bind="value: authenticationViewModel.user.username" required autofocus>
+                    <input name="username" type="text" placeholder="Usuário de Teste" data-bind="value: authenticationViewModel.user.username" required autofocus>
                 </li>
                 <li>
-                    <input name="password" type="password" placeholder="Password" data-bind="value: authenticationViewModel.user.password" required>
+                    <input name="password" type="password" placeholder="Senha" data-bind="value: authenticationViewModel.user.password" required>
                 </li>
             </ul>
             <a data-role="button" class="primary" data-bind="events: { click: authenticationViewModel.signin }">Login</a>
@@ -22,21 +22,21 @@
         </div>
     </div>
     <div class="signup-view" style="display:none;">
-        <h1>friends</h1>
+        <h1>amigos</h1>
         <form id="authentication-form" class="form">
-            <h2>Create New Account</h2>
+            <h2>Criar Nova Conta</h2>
             <ul data-role="listview">
                 <li>
-                    <input name="username" type="text" placeholder="Username" data-bind="value: authenticationViewModel.user.username" required>
+                    <input name="username" type="text" placeholder="Usuário" data-bind="value: authenticationViewModel.user.username" required>
                 </li>
                 <li>
-                    <input name="password" type="password" placeholder="Password" data-bind="value: authenticationViewModel.user.password" required>
+                    <input name="password" type="password" placeholder="Senha" data-bind="value: authenticationViewModel.user.password" required>
                 </li>
                 <li>
-                    <input name="email" type="email" placeholder="Email" data-bind="value: authenticationViewModel.user.email">
+                    <input name="email" type="email" placeholder="E-mail" data-bind="value: authenticationViewModel.user.email">
                 </li>
                 <li>
-                    <input name="name" type="text" placeholder="Display Name" data-bind="value: authenticationViewModel.user.displayName">
+                    <input name="name" type="text" placeholder="Nome que será exibido" data-bind="value: authenticationViewModel.user.displayName">
                 </li>
             </ul>
             <a class="primary" data-role="button"data-bind="events: { click: authenticationViewModel.register }">Sign Up</a>
@@ -45,6 +45,6 @@
     </div>
 
     <div class="offline" align="center" style="display:none;">
-        You are currently offline. Before using this app in offline mode you must initialize it while you are online
+        Você está offline. Antes de usar este aplicativo, você deverá realizar o login.
     </div>
 </div>

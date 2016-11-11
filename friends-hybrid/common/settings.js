@@ -2,7 +2,7 @@
 
 (function () {
     app.settings = {
-        appId: '${AppId}',
+        appId: 'mjmfd3k0dxd9hgdm',
         scheme: 'http', // possible values: http, https
         social: {
             facebook: {

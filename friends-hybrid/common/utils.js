@@ -34,7 +34,7 @@
                 destinationType = Camera.DestinationType.DATA_URL;
                 callback = function (uri) {
                     if (uri.length > app.constants.simulatorFileSizeLimit) {
-                        return app.notify.info('Please select smaller image, up to 2.5MB.');
+                        return app.notify.info('Por favor, selecione uma imagem com o tamanho máximo de 2.5MB.');
                     }
 
                     uri = 'data:image/jpeg;base64,' + uri;
@@ -46,7 +46,7 @@
                     window.resolveLocalFileSystemURL(uri, function (fileEntry) {
                         fileEntry.file(function (file) {
                             if (file.size > app.constants.deviceFileSizeLimit) {
-                                return app.notify.info('The upload file limit is 10mb, try taking a picture with the front camera.');
+                                return app.notify.info('O limite de upload do arquivo é de 10mb, procurar utilizar a câmera frontal.');
                             }
 
                             return that.callback(uri);

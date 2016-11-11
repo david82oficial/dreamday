@@ -360,8 +360,8 @@ textarea:-ms-input-placeholder {
 }
 
 #friendsApp .authentication-view {
-    background: transparent url(img/background-authentication.jpg) no-repeat 50% 50%;
-    background-size: 100% auto;
+    background: transparent url(img/login_bg.jpg) no-repeat 0% 0%;
+    background-size: 275% auto;
 }
 
 #friendsApp .authentication-view .km-content {

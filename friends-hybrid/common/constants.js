@@ -4,7 +4,7 @@
         authenticationModeRegister: 'register',
         defaultPicture: 'styles/img/default.jpg',
         whitePicture: 'styles/img/white.png',
-        dateFormat: 'MMM d, yyyy',
+        dateFormat:  'd MMM yyyy',
         simulatorFileSizeLimit: 3700000, //string length in base64, about 2.5mb
         deviceFileSizeLimit: 1000000 * 10 //10mb
     };

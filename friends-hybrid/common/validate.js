@@ -24,14 +24,14 @@
                     }
                 },
                 messages: {
-                    validateBirthDateRule: 'Please set a birth date in the past.',
-                    validateEmailRule: 'Not valid email format.',
+                    validateBirthDateRule: 'Por favor, verifique a data de aniversário.',
+                    validateEmailRule: 'Formato de e-mail inválido.',
                     required: function (input) {
                         if (input.is('input[type=password]')) {
-                            return 'The specified password is not valid.'
+                            return 'Senha inválida.'
                         }
 
-                        return 'This field is required.';
+                        return 'Campo obrigatório.';
                     }
                 }
             }, params)).data('kendoValidator');
