@@ -28,7 +28,7 @@ h2 {
 .km-flat .k-slider .k-draghandle,
 .km-flat .k-slider .k-draghandle:hover,
 .km-flat .km-scroller-refresh.km-load-more {
-  background: #7ed321;
+  background: #fc9128;
 }
 
 .km-flat .km-loader {
@@ -36,7 +36,7 @@ h2 {
 }
 
 .km-flat .km-loader::before {
-  background: #7ed321;
+  background: #fc9128;
 }
 
 #friendsApp.km-flat,
@@ -152,7 +152,7 @@ textarea:-ms-input-placeholder {
 #friendsApp.km-flat .km-list input[type='email'],
 #friendsApp.km-flat .km-list input[type='date'] {
     border: 1px solid #0d0e0e;
-    background-color: #2f312f;
+    background-color: #fc9129;
     color: #fff;
 }
 
@@ -216,11 +216,11 @@ textarea:-ms-input-placeholder {
 }
 
 #friendsApp .km-button.primary {
-    background-color: #7ed321;
+    background-color: #fc9129;
 }
 
 #friendsApp .km-button.primary.km-state-active {
-    background-color: #68b811;
+    background-color: #fc9129;
 }
 
 #friendsApp .km-button.text-only {
@@ -252,11 +252,11 @@ textarea:-ms-input-placeholder {
 
 #friendsApp .button-social {
     margin: 0 .5em;
-    background-color: #7ed321;
+    background-color: #3B579D;
 }
 
 #friendsApp .button-social.km-state-active {
-    background-color: #68b811;
+    background-color: #fc9129;
 }
 
 #friendsApp .button-social[disabled] {
@@ -398,7 +398,7 @@ textarea:-ms-input-placeholder {
 }
 
 #friendsApp .km-header .km-navbar {
-    background-color: #7ed321;
+    background-color: #fc9129;
 }
 
 #friendsApp .km-header .km-view-title {
@@ -576,7 +576,7 @@ textarea:-ms-input-placeholder {
     top: 0;
     min-width: 100%;
     min-height: 100vh;
-    background-image: url('img/background-authentication.jpg');
+    background-image: url('img/login_bg.jpg');
     background-size: cover;
 }
 

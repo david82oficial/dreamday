@@ -129,7 +129,7 @@
         },
         facebookLogin: function () {
             if (app.utils.isInSimulator() || !app.isCordova) {
-                return app.notify.info('Facebook login is only available on a device.');
+                return app.notify.info(' A função de login pelo Facebook está disponível apenas nos dispositivos móveis.');
             }
 
             var fbLogin = function (response) {

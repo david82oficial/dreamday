@@ -20,7 +20,7 @@
             noty({text: text, type: 'success', layout: 'top'})
         },
         confirmation: function (text, title, callback) {
-            text = text || 'Are you sure?';
+            text = text || 'Você tem certeza?';
 
             if (navigator && navigator.notification && navigator.notification.confirm) {
                 navigator.notification.confirm(text, function(res) {
