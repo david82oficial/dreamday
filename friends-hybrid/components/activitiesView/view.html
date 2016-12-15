@@ -5,8 +5,8 @@
             <span data-role="view-title"></span>
 
             <a class="button-icon button-menu" data-role="button" href="#appDrawer" data-rel="drawer" data-align="left"></a>
-            <a class="button-icon button-add" data-role="button" data-align="right"
-               data-bind="events: { click: activitiesViewModel.addActivityClick }"></a>
+            <!--<a class="button-icon button-add" data-role="button" data-align="right"
+               data-bind="events: { click: activitiesViewModel.addActivityClick }"></a>-->
         </div>
     </header>
 
@@ -54,4 +54,10 @@
             </div>
         </div>
     </script>
+      <footer data-role="footer">
+         <div data-role="navbar" class="header-text">
+            <a class="button-icon button-plus" data-role="button" data-align="center"
+               data-bind="events: { click: activitiesViewModel.addActivityClick }"></a>
+        </div>
+      </footer>
 </div>

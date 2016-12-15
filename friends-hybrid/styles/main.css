@@ -329,6 +329,13 @@ textarea:-ms-input-placeholder {
     background-image: url(img/icon-remove.png);
 }
 
+#friendsApp .button-icon.button-plus {
+    background-image: url(img/plus.png);
+}
+
+#friendsApp .button-icon.button-plus2 {
+    background-image: url(img/plus@2x.png);
+}
 #friendsApp .comments-view .button-edit-dark {
     margin-left: -.5em;
 }
