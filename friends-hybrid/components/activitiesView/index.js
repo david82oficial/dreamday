@@ -5,6 +5,7 @@
     var provider = app.data.defaultProvider;
     var activitiesData = provider.data('Activities');
     var commentsData = provider.data('Comments');
+    console.log(activitiesData);
 
     var likeActivity = function (e) {
         return new Everlive._common.rsvp.Promise(function (resolve, reject) {
